@@ -1,0 +1,27 @@
+.navigationBar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.item:hover, .item.active {
+    background-color: #B284D8;
+}
+
+.item:active {
+    background-color: blueviolet;
+}
